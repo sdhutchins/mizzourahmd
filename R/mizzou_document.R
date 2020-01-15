@@ -29,7 +29,7 @@ mizzou_document <- function (fig_width = 8, fig_height = 6,
     base_format = rmarkdown::html_document(fig_width = fig_width,
       fig_height = fig_height, dev = dev, fig_retina = 2,
 #      section_divs = FALSE, fig_caption = TRUE,
-      css = css, theme = "default", highlight = "haddock",
+      css = css, theme = "default", highlight = "tango",
       self_contained = self_contained, mathjax = mathjax,
       pandoc_args = "--tab-stop=2", ...))
 }
